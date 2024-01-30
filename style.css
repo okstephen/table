@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 2px solid black
+    width: 750px;
+    margin-left: 23%;
+    margin-top: 14%;
+    border-radius: 10px;
+    
+    
+}
+body    {
+    background-color: aqua;
+}
+table, th, td   {
+    border: 1px solid aqua;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td  {
+    padding: 15px;
+    width: 200px;
+    border-style: solid;
+    border-color: azure;
+
+}
+th  {
+    color: white;
+    font-weight: 600;
+}

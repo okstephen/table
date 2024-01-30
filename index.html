@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourOrganization</title>
+    <!--Internal CSS-->
+    <style>
+        h1 {
+            text-align: center; color: burlywood;
+        }
+
+        h3  {
+            text-align: center; font-family: Arial; font-size: larger; border-width: 1px; border-style: hidden; padding: 20px; background-color: moccasin;
+        }
+
+        div {
+            margin: 0 25% 0 25%;
+            font-family: Arial;
+            font-size: medium;
+            font-weight: bold;
+
+        }
+        
+        input   {
+            padding: 8px;
+            border-color: darkgray;
+            outline: none;
+        }
+
+        ::placeholder   {
+            font-size: large;
+        }
+
+        button  {
+            font-size: large;
+            font-weight: lighter;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>YourOrganization</h1><br>
+        <h3>Community Service Hours Form</h3><br>
+        <form action="" method="get">
+            <label for="firstname">First Name</label>
+            <label for="lastname" style="margin-left: 40%;">Last Name</label><br><br>
+            <input type="text" name="firstname" placeholder="First Name" style="border-radius: 7px; border-width: 1px; width: 280px; padding: 15px;"> 
+            <input type="text" name="lastname" placeholder="Last Name" style="margin-left: 4.5%; border-radius: 7px; border-width: 1px; width: 280px; padding: 15px;"><br><br>
+            <label for="casenumber">Case Number</label>
+            <label for="numberoghoursassigned" style="margin-left: 37%;">Number of Hours Assigned</label><br><br>
+            <input type="number" name="casenumber" placeholder="Case Number" style="border-radius: 7px; border-width: 1px; width: 280px; padding: 15px;">
+            <input type="number" name="numberoghoursassigned" placeholder="Number of Hours Assigned" style="margin-left: 4.5%; border-radius: 7px; border-width: 1px; width: 280px; padding: 15px;"><br><br>
+            <label for="placementagency">Placement Agency</label><br><br>
+            <input type="text" name="placementagency" placeholder="Placement Agency" style="width: 626px; border-radius: 7px; border-width: 1px; padding: 15px;"><br><br>
+            <label for="supervisorname">Supervisor Name</label><br><br>
+            <input type="text" name="supervisorname" placeholder="Supervisor Name" style="width: 626px; border-radius: 7px; border-width: 1px; padding: 15px;"><br><br><br>
+            <button type="submit" style="width: 656px; border-radius: 7px; border-width: 1px; padding: 15px;">Submit</button> 
+        </form>
+    </div>
+   
+</body>
+</html>
